@@ -1,4 +1,4 @@
-[!alt_img](IMG_Swagger.JPG)
+![alt_text](IMG_Swagger.JPG)
 
 Endpoints personalizados añadidos:         
         
