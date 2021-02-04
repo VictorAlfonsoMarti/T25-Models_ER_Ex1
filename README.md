@@ -11,7 +11,7 @@ Endpoints personalizados añadidos:
          */
 
         // GET api/Fabricante/nombre
-        // optiene el nombre de  todos los fabricantes
+        // obtiene el nombre de  todos los fabricantes
         [HttpGet("nombre")]
         public IQueryable<FabricantesDto> GetFabricanteNombre()
         {
@@ -27,7 +27,7 @@ Endpoints personalizados añadidos:
          */
         
         // GET api/Articulos/fabricante/{codigoFabricante}
-        // optiene todos los articulos de un fabricante mostrando nombre y precio
+        // obtiene todos los articulos de un fabricante mostrando nombre y precio
         [HttpGet("fabricante/{codigoFabricante}")]
         public IQueryable<ArticulosDto> GetArticulosFabricante(int codigoFabricante)
         {
