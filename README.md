@@ -1,3 +1,5 @@
+[!alt_img](IMG_Swagger.JPG)
+
 Endpoints personalizados añadidos:         
         
         /*
